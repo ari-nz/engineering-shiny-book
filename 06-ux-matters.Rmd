@@ -8,7 +8,7 @@ That's the hard truth.
 We have a natural tendency, as R-coders, to be focused on the back-end, i.e the server part of the application
 ^[aka what happens in the server side of a Shiny App]
 . 
-Which is perfectly normal—chances are you did not come to R to design front-ends
+Which is perfectly normal as chances are you did not come to R to design front-ends
 ^[Front-end are the visual parts of your application, the one your user interacts with, as opposed to the back-end, which is what is installed on the server, the part the end user does not see. In Shiny, front-end is what correspond to the UI, back-end to the server.
 ]. 
 
@@ -609,7 +609,7 @@ shinyApp(ui, server)
 #### Color choices
 
 Color blindness is also a common impairment when it comes to web accessibility.
-And it is a rather common deficiency: according to [colourblindawareness.org](http://www.colourblindawareness.org/), _"color (color) blindness (color vision deficiency, or CVD) affects approximately 1 in 12 men (8%) and 1 in 200 women in the world"_.
+And it is a rather common deficiency: according to [colourblindawareness.org](http://www.colourblindawareness.org/), _"colour (color) blindness (color vision deficiency, or CVD) affects approximately 1 in 12 men (8%) and 1 in 200 women in the world"_.
 
 Keeping in mind this prevalence of color blindness is even more important in the context of Shiny, where we are developing data science products, which most of the time include data visualization. 
 If designed wrong, dataviz can be unreadable for some specific type of color blindness. 
